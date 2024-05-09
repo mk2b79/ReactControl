@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{06BCB96D-1CA5-4D4A-B131-B3BEB2EDA675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactControl.DTOs", "ReactControl.DTOs\ReactControl.DTOs.csproj", "{84CC8FE6-1262-4339-B6DC-60940FFA7540}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactControl.BLL", "ReactControl.BLL\ReactControl.BLL.csproj", "{3DEE7354-DB70-45A7-A78C-280FF05FBD61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84CC8FE6-1262-4339-B6DC-60940FFA7540} = {06BCB96D-1CA5-4D4A-B131-B3BEB2EDA675}
+		{3DEE7354-DB70-45A7-A78C-280FF05FBD61} = {06BCB96D-1CA5-4D4A-B131-B3BEB2EDA675}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84CC8FE6-1262-4339-B6DC-60940FFA7540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CC8FE6-1262-4339-B6DC-60940FFA7540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CC8FE6-1262-4339-B6DC-60940FFA7540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CC8FE6-1262-4339-B6DC-60940FFA7540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DEE7354-DB70-45A7-A78C-280FF05FBD61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEE7354-DB70-45A7-A78C-280FF05FBD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEE7354-DB70-45A7-A78C-280FF05FBD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEE7354-DB70-45A7-A78C-280FF05FBD61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
